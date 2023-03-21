@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Task 1</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <style>
+    
+       
+    </style>
+</head>
+<body>
+    <h1>For Order Details:</h1>
+    <div class="header">
+       
+       <label for="name">Enter Name</label>
+       <input type="text" id="name" placeholder="  Enter Your Full Name" required><br><br>
+       <button  onclick="calculate()">submit</button>
+    
+    </div>
+
+    <div class="table" id="table">
+        <h4 id="heading"></h4>
+       <table>
+           <tr>
+               <td>Name:</td>
+               <td id="Fname"></td>
+           </tr>
+           <tr>
+               <td>Total letters:</td>
+               <td id="Tletter"></td>
+           </tr>
+           <tr>
+               <td>Sub total:</td>
+               <td id="sub"></td>
+           </tr>
+           <tr>
+               <td>Shipping:</td>
+               <td id="ship"> $7</td>
+           </tr>
+           <tr>
+               <td>Grand total:</td>
+               <td id="total"></td>
+           </tr>
+       </table> 
+       <br>
+       <a href="#">Pay Now</a> 
+    </div>
+</body>
+</html>
