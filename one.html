@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="one.js" defer></script>
+
+
+</head>
+
+<body>
+    <h1>Order Details</h1>
+    <div class="header">
+
+        <label for="name">Enter Name</label>
+        <input type="text" id="name" placeholder="Enter your full name" required><br>
+        <br>
+        <button onclick="calculate()">Submit</button>
+
+    </div>
+
+    <div class="table" id="table">
+        <h4 id="heading"></h4>
+        <table>
+            <tr>
+                <td>Name: </td>
+                <td id="Fname"> </td>
+            </tr>
+            <tr>
+                <td>Total letters:</td>
+                <td id="Tletter"></td>
+            </tr>
+            <tr>
+                <td>Subtotal:</td>
+                <td id="sub"></td>
+            </tr>
+            <tr>
+                <td>Shipping:</td>
+                <td id="ship"> $7</td>
+
+            </tr>
+            <tr>
+                <td>Grand total:</td>
+                <td id="total"> </td>
+
+            </tr>
+        </table>
+        <br>
+        <a href="#">Pay Now</a>
+    </div>
+</body>
+
+</html>
